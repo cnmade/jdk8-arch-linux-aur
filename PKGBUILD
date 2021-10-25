@@ -68,7 +68,7 @@ options=('!strip') # JDK debug-symbols
 install="${pkgname}.install"
 _srcfil="${_pkgname}-${pkgver}-linux-x64.tar.gz"
 source=(
-  "https://download.oracle.com/otn-pub/java/jdk/${pkgver}-${_build}/${_hash}/${_srcfil}"
+  "jdk-8u301-linux-x64.tar.gz"
   "jconsole-${_jname}.desktop"
   "jmc-${_jname}.desktop"
   "jvisualvm-${_jname}.desktop"
